@@ -9,19 +9,53 @@
 /* Begin PBXBuildFile section */
 		8B088E8D268874D800BAC652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E8C268874D800BAC652 /* AppDelegate.swift */; };
 		8B088E8F268874D800BAC652 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E8E268874D800BAC652 /* SceneDelegate.swift */; };
-		8B088E91268874D800BAC652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E90268874D800BAC652 /* ViewController.swift */; };
+		8B088E91268874D800BAC652 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E90268874D800BAC652 /* HomeViewController.swift */; };
 		8B088E96268874DF00BAC652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B088E95268874DF00BAC652 /* Assets.xcassets */; };
 		8B088E99268874DF00BAC652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B088E97268874DF00BAC652 /* LaunchScreen.storyboard */; };
+		8B088EA72688C3FA00BAC652 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EA62688C3FA00BAC652 /* TabBarViewController.swift */; };
+		8B088EA92688C43D00BAC652 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EA82688C43D00BAC652 /* SearchViewController.swift */; };
+		8B088EAB2688C45A00BAC652 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EAA2688C45A00BAC652 /* LibraryViewController.swift */; };
+		8B088EAF2688C4A300BAC652 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EAE2688C4A300BAC652 /* AuthViewController.swift */; };
+		8B088EB12688C4B700BAC652 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EB02688C4B700BAC652 /* WelcomeViewController.swift */; };
+		8B088EB32688C4D400BAC652 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EB22688C4D400BAC652 /* SettingsViewController.swift */; };
+		8B088EB52688C4EE00BAC652 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EB42688C4EE00BAC652 /* ProfileViewController.swift */; };
+		8B088EB72688C50600BAC652 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EB62688C50600BAC652 /* PlayerViewController.swift */; };
+		8B088EB92688C52600BAC652 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EB82688C52600BAC652 /* PlaylistViewController.swift */; };
+		8B088EBB2688C54200BAC652 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EBA2688C54200BAC652 /* SearchResultsViewController.swift */; };
+		8B088EBD2688C57400BAC652 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EBC2688C57400BAC652 /* AuthManager.swift */; };
+		8B088EBF2688C59000BAC652 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EBE2688C59000BAC652 /* APICaller.swift */; };
+		8B088EC12688C5AA00BAC652 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EC02688C5AA00BAC652 /* HapticsManager.swift */; };
+		8B088EC32688C5DE00BAC652 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EC22688C5DE00BAC652 /* Playlist.swift */; };
+		8B088EC52688C5F500BAC652 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EC42688C5F500BAC652 /* AudioTrack.swift */; };
+		8B088EC72688C60D00BAC652 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EC62688C60D00BAC652 /* Artist.swift */; };
+		8B088EC92688C61D00BAC652 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EC82688C61D00BAC652 /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B088E89268874D800BAC652 /* AlphaSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B088E8C268874D800BAC652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B088E8E268874D800BAC652 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B088E90268874D800BAC652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B088E90268874D800BAC652 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8B088E95268874DF00BAC652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B088E98268874DF00BAC652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B088E9A268874DF00BAC652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B088EA62688C3FA00BAC652 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8B088EA82688C43D00BAC652 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8B088EAA2688C45A00BAC652 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		8B088EAE2688C4A300BAC652 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		8B088EB02688C4B700BAC652 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8B088EB22688C4D400BAC652 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8B088EB42688C4EE00BAC652 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8B088EB62688C50600BAC652 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		8B088EB82688C52600BAC652 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		8B088EBA2688C54200BAC652 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		8B088EBC2688C57400BAC652 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		8B088EBE2688C59000BAC652 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		8B088EC02688C5AA00BAC652 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		8B088EC22688C5DE00BAC652 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		8B088EC42688C5F500BAC652 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		8B088EC62688C60D00BAC652 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		8B088EC82688C61D00BAC652 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +102,8 @@
 		8B088EA02688A0BE00BAC652 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B088E90268874D800BAC652 /* ViewController.swift */,
+				8B088EAD2688C48B00BAC652 /* Other */,
+				8B088EAC2688C47100BAC652 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -84,6 +119,10 @@
 		8B088EA22688A0C900BAC652 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8B088EC22688C5DE00BAC652 /* Playlist.swift */,
+				8B088EC42688C5F500BAC652 /* AudioTrack.swift */,
+				8B088EC62688C60D00BAC652 /* Artist.swift */,
+				8B088EC82688C61D00BAC652 /* UserProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,6 +137,9 @@
 		8B088EA42688A0E000BAC652 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				8B088EBC2688C57400BAC652 /* AuthManager.swift */,
+				8B088EBE2688C59000BAC652 /* APICaller.swift */,
+				8B088EC02688C5AA00BAC652 /* HapticsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -110,6 +152,31 @@
 				8B088E8C268874D800BAC652 /* AppDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B088EAC2688C47100BAC652 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8B088E90268874D800BAC652 /* HomeViewController.swift */,
+				8B088EA62688C3FA00BAC652 /* TabBarViewController.swift */,
+				8B088EA82688C43D00BAC652 /* SearchViewController.swift */,
+				8B088EAA2688C45A00BAC652 /* LibraryViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8B088EAD2688C48B00BAC652 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8B088EAE2688C4A300BAC652 /* AuthViewController.swift */,
+				8B088EB02688C4B700BAC652 /* WelcomeViewController.swift */,
+				8B088EB22688C4D400BAC652 /* SettingsViewController.swift */,
+				8B088EB42688C4EE00BAC652 /* ProfileViewController.swift */,
+				8B088EB62688C50600BAC652 /* PlayerViewController.swift */,
+				8B088EB82688C52600BAC652 /* PlaylistViewController.swift */,
+				8B088EBA2688C54200BAC652 /* SearchResultsViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +248,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B088E91268874D800BAC652 /* ViewController.swift in Sources */,
+				8B088EA92688C43D00BAC652 /* SearchViewController.swift in Sources */,
+				8B088EC92688C61D00BAC652 /* UserProfile.swift in Sources */,
+				8B088EC32688C5DE00BAC652 /* Playlist.swift in Sources */,
+				8B088EBD2688C57400BAC652 /* AuthManager.swift in Sources */,
+				8B088EBB2688C54200BAC652 /* SearchResultsViewController.swift in Sources */,
+				8B088EB12688C4B700BAC652 /* WelcomeViewController.swift in Sources */,
+				8B088EB52688C4EE00BAC652 /* ProfileViewController.swift in Sources */,
+				8B088EA72688C3FA00BAC652 /* TabBarViewController.swift in Sources */,
+				8B088EC12688C5AA00BAC652 /* HapticsManager.swift in Sources */,
+				8B088EC52688C5F500BAC652 /* AudioTrack.swift in Sources */,
+				8B088E91268874D800BAC652 /* HomeViewController.swift in Sources */,
+				8B088EAF2688C4A300BAC652 /* AuthViewController.swift in Sources */,
 				8B088E8D268874D800BAC652 /* AppDelegate.swift in Sources */,
+				8B088EAB2688C45A00BAC652 /* LibraryViewController.swift in Sources */,
+				8B088EC72688C60D00BAC652 /* Artist.swift in Sources */,
+				8B088EB92688C52600BAC652 /* PlaylistViewController.swift in Sources */,
 				8B088E8F268874D800BAC652 /* SceneDelegate.swift in Sources */,
+				8B088EB72688C50600BAC652 /* PlayerViewController.swift in Sources */,
+				8B088EBF2688C59000BAC652 /* APICaller.swift in Sources */,
+				8B088EB32688C4D400BAC652 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
