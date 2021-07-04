@@ -30,6 +30,7 @@
 		8B088EC72688C60D00BAC652 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EC62688C60D00BAC652 /* Artist.swift */; };
 		8B088EC92688C61D00BAC652 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EC82688C61D00BAC652 /* UserProfile.swift */; };
 		8B088ECB2689293300BAC652 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088ECA2689293300BAC652 /* Extensions.swift */; };
+		8B6F44BC268F19CD000A7065 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F44BB268F19CD000A7065 /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		8B088EC62688C60D00BAC652 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		8B088EC82688C61D00BAC652 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		8B088ECA2689293300BAC652 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8B6F44BB268F19CD000A7065 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				8B088EC42688C5F500BAC652 /* AudioTrack.swift */,
 				8B088EC62688C60D00BAC652 /* Artist.swift */,
 				8B088EC82688C61D00BAC652 /* UserProfile.swift */,
+				8B6F44BB268F19CD000A7065 /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				8B088EB12688C4B700BAC652 /* WelcomeViewController.swift in Sources */,
 				8B088EB52688C4EE00BAC652 /* ProfileViewController.swift in Sources */,
 				8B088EA72688C3FA00BAC652 /* TabBarViewController.swift in Sources */,
+				8B6F44BC268F19CD000A7065 /* AuthResponse.swift in Sources */,
 				8B088EC12688C5AA00BAC652 /* HapticsManager.swift in Sources */,
 				8B088EC52688C5F500BAC652 /* AudioTrack.swift in Sources */,
 				8B088E91268874D800BAC652 /* HomeViewController.swift in Sources */,
