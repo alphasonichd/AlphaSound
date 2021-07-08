@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		8B088E8D268874D800BAC652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E8C268874D800BAC652 /* AppDelegate.swift */; };
 		8B088E8F268874D800BAC652 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E8E268874D800BAC652 /* SceneDelegate.swift */; };
 		8B088E91268874D800BAC652 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E90268874D800BAC652 /* HomeViewController.swift */; };
-		8B088E96268874DF00BAC652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B088E95268874DF00BAC652 /* Assets.xcassets */; };
 		8B088E99268874DF00BAC652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B088E97268874DF00BAC652 /* LaunchScreen.storyboard */; };
 		8B088EA72688C3FA00BAC652 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EA62688C3FA00BAC652 /* TabBarViewController.swift */; };
 		8B088EA92688C43D00BAC652 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088EA82688C43D00BAC652 /* SearchViewController.swift */; };
@@ -33,6 +32,7 @@
 		8B088ECB2689293300BAC652 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088ECA2689293300BAC652 /* Extensions.swift */; };
 		8B6F44BC268F19CD000A7065 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F44BB268F19CD000A7065 /* AuthResponse.swift */; };
 		8B802BB62695B3710078C3E2 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B802BB52695B3710078C3E2 /* SettingsModels.swift */; };
+		8BCD78F726978FD000C8DC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCD78F626978FD000C8DC11 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,6 @@
 		8B088E8C268874D800BAC652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B088E8E268874D800BAC652 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8B088E90268874D800BAC652 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		8B088E95268874DF00BAC652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B088E98268874DF00BAC652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B088E9A268874DF00BAC652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B088EA62688C3FA00BAC652 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		8B088ECA2689293300BAC652 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8B6F44BB268F19CD000A7065 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		8B802BB52695B3710078C3E2 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		8BCD78F626978FD000C8DC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AppIcons/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		B20DE9104EC5204D74475226 /* Pods-AlphaSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaSound.debug.xcconfig"; path = "Target Support Files/Pods-AlphaSound/Pods-AlphaSound.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,7 +170,7 @@
 		8B088EA52688A0E800BAC652 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8B088E95268874DF00BAC652 /* Assets.xcassets */,
+				8BCD78F626978FD000C8DC11 /* Assets.xcassets */,
 				8B088E8E268874D800BAC652 /* SceneDelegate.swift */,
 				8B088E8C268874D800BAC652 /* AppDelegate.swift */,
 				8B088ECA2689293300BAC652 /* Extensions.swift */,
@@ -209,7 +209,6 @@
 				B20DE9104EC5204D74475226 /* Pods-AlphaSound.debug.xcconfig */,
 				553640AD5C0686BEFDAF32F2 /* Pods-AlphaSound.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -273,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B088E99268874DF00BAC652 /* LaunchScreen.storyboard in Resources */,
-				8B088E96268874DF00BAC652 /* Assets.xcassets in Resources */,
+				8BCD78F726978FD000C8DC11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
