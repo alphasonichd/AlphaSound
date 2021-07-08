@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F986CD3D1FCBD523225621A /* Pods_AlphaSound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D037C141A155A9D109DCA20 /* Pods_AlphaSound.framework */; };
 		8B088E8D268874D800BAC652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E8C268874D800BAC652 /* AppDelegate.swift */; };
 		8B088E8F268874D800BAC652 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E8E268874D800BAC652 /* SceneDelegate.swift */; };
 		8B088E91268874D800BAC652 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B088E90268874D800BAC652 /* HomeViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D037C141A155A9D109DCA20 /* Pods_AlphaSound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaSound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		553640AD5C0686BEFDAF32F2 /* Pods-AlphaSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaSound.release.xcconfig"; path = "Target Support Files/Pods-AlphaSound/Pods-AlphaSound.release.xcconfig"; sourceTree = "<group>"; };
 		8B088E89268874D800BAC652 /* AlphaSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B088E8C268874D800BAC652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B088E8E268874D800BAC652 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +65,7 @@
 		8B088ECA2689293300BAC652 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8B6F44BB268F19CD000A7065 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		8B802BB52695B3710078C3E2 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		B20DE9104EC5204D74475226 /* Pods-AlphaSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaSound.debug.xcconfig"; path = "Target Support Files/Pods-AlphaSound/Pods-AlphaSound.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,17 +73,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F986CD3D1FCBD523225621A /* Pods_AlphaSound.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D956EB3700A6018FB98639C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D037C141A155A9D109DCA20 /* Pods_AlphaSound.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B088E80268874D800BAC652 = {
 			isa = PBXGroup;
 			children = (
 				8B088E8B268874D800BAC652 /* AlphaSound */,
 				8B088E8A268874D800BAC652 /* Products */,
+				E623471ABDE0DF9FAC69A881 /* Pods */,
+				3D956EB3700A6018FB98639C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +203,16 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		E623471ABDE0DF9FAC69A881 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B20DE9104EC5204D74475226 /* Pods-AlphaSound.debug.xcconfig */,
+				553640AD5C0686BEFDAF32F2 /* Pods-AlphaSound.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B088E9D268874DF00BAC652 /* Build configuration list for PBXNativeTarget "AlphaSound" */;
 			buildPhases = (
+				40411769837BBCF570BFD13F /* [CP] Check Pods Manifest.lock */,
 				8B088E85268874D800BAC652 /* Sources */,
 				8B088E86268874D800BAC652 /* Frameworks */,
 				8B088E87268874D800BAC652 /* Resources */,
+				606D2776AD35C8FDD966B57F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +278,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40411769837BBCF570BFD13F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaSound-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606D2776AD35C8FDD966B57F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaSound/Pods-AlphaSound-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaSound/Pods-AlphaSound-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaSound/Pods-AlphaSound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B088E85268874D800BAC652 /* Sources */ = {
@@ -415,6 +484,7 @@
 		};
 		8B088E9E268874DF00BAC652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20DE9104EC5204D74475226 /* Pods-AlphaSound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +504,7 @@
 		};
 		8B088E9F268874DF00BAC652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553640AD5C0686BEFDAF32F2 /* Pods-AlphaSound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
