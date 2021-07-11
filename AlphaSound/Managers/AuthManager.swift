@@ -100,17 +100,6 @@ final class AuthManager {
         task.resume()
     }
     
-    private func cacheToken(result: AuthResponse) {
-        UserDefaults.standard.setValue(result.access_token, forKey: "access_token")
-        
-        if let refreshToken = result.refresh_token {
-            UserDefaults.standard.setValue(refreshToken, forKey: "refresh_token")
-        }
-        
-        UserDefaults.standard.setValue(Date().addingTimeInterval(TimeInterval(result.expires_in)), forKey: "expirationDate")
-
-    }
-    
     /// Supplies valid token to be used with API calls
     
     public func withValidToken(completion: @escaping (String) -> Void) {
@@ -185,5 +174,16 @@ final class AuthManager {
             }
         }
         task.resume()
+    }
+    
+    private func cacheToken(result: AuthResponse) {
+        UserDefaults.standard.setValue(result.access_token, forKey: "access_token")
+        
+        if let refreshToken = result.refresh_token {
+            UserDefaults.standard.setValue(refreshToken, forKey: "refresh_token")
+        }
+        
+        UserDefaults.standard.setValue(Date().addingTimeInterval(TimeInterval(result.expires_in)), forKey: "expirationDate")
+
     }
 }
